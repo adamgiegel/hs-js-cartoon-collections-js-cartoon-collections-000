@@ -1,7 +1,11 @@
 function dwarfRollCall(dwarves) {
   let string = ""
   for(let i = 0; i < dwarves.length; i++){
+<<<<<<< HEAD
     string += ((i + 1) + '.' + " " + dwarves[i] + " ")
+=======
+    string += ((i + 1) + '.' + dwarves[i])
+>>>>>>> f6474e2db12cd90bbb213e4ed92e70b158365649
   }
   return string
 }
