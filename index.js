@@ -41,6 +41,9 @@ wordsWithB([‘flat’, ‘house’, ‘apartment’]) => []
 function wordsWithB(array){
   let newArr = []
   for(let i = 0; i < array.length; i++){
-    if(array[i])
+    if(array[i].charAt(0) === "b"){
+      newArr.push(array[i])
+    }
+    return newArr
   }
 }
