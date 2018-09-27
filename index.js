@@ -27,9 +27,11 @@ function longPlaneteerCalls(words) {
 function findTheCheese (foods) {
   let string = ''
   for(let i = 0; i < foods.length; i++){
-    if(foods[i] === "cheddar" || foods[i] === "gouda" || foods[i]=== "camembert"){
+    if(foods[i] === "cheddar" || foods[i] === "gouda" || foods[i]=== "camembert" || foods[i] === "swiss"){
       return string += foods[i]
     }
   }
   return "no cheese!"
 }
+
+function wordsWithBee
