@@ -34,4 +34,13 @@ function findTheCheese (foods) {
   return "no cheese!"
 }
 
-function wordsWithBee
+wordsWithB([‘barn’, ‘house’, ‘apartment’]) => [‘barn’]
+wordsWithB([‘barn’, ‘house’, ‘bungalow’]) => [‘barn’, ‘bungalow’]
+wordsWithB([‘flat’, ‘house’, ‘apartment’]) => []
+
+function wordsWithB(array){
+  let newArr = []
+  for(let i = 0; i < array.length; i++){
+    if(array[i])
+  }
+}
